@@ -1,0 +1,32 @@
+---
+title: "Shang Jing"
+---
+
+# Shang Jing
+
+Graduate Researcher  
+Email: you@example.com  
+GitHub: https://github.com/jing1201121
+
+---
+
+### Research Focus
+
+My research explores blockchain-based open-source innovation systems, with a particular focus on how protocol-level incentive design shapes developer collaboration and value distribution across ecosystems such as Ethereum.
+
+**Keywords**
+- Open-source collaboration structures
+- Protocol governance
+- Token economy and value allocation
+- Multi-chain ecosystem evolution
+
+---
+
+### Working Papers & Projects
+
+*Coming soon.*
+
+---
+
+### CV
+[Download CV](your_cv.pdf)
