@@ -1,5 +1,0 @@
----
-title: "About"
----
-
-I am a researcher focusing on blockchain-based open-source innovation, particularly how token-based incentives shape collaboration patterns and ecosystem evolution. This website will gradually include working papers, datasets, and notes.

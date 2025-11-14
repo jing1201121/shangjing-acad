@@ -1,32 +1,33 @@
 ---
-title: "Shang Jing"
+title: "Jing Shang"
+format:
+  html:
+    theme: flatly
+    css: styles.css
 ---
 
-# Shang Jing
+![](me.jpg){width=260px style="float:left;margin-right:30px;margin-bottom:10px;"}
 
-Graduate Researcher  
-Email: you@example.com  
-GitHub: https://github.com/jing1201121
+### **Research Interest**
 
----
+My research focuses on **cryptocurrencies** and **blockchain-based open-source systems**, examining how **token-based incentives** shape technological innovation structures and ecosystem evolution.  
 
-### Research Focus
 
-My research explores blockchain-based open-source innovation systems, with a particular focus on how protocol-level incentive design shapes developer collaboration and value distribution across ecosystems such as Ethereum.
 
-**Keywords**
-- Open-source collaboration structures
-- Protocol governance
-- Token economy and value allocation
-- Multi-chain ecosystem evolution
+This website is used to share my research progress, the datasets I am building, and related notes and materials.
 
 ---
 
-### Working Papers & Projects
+### **Contact**
 
-*Coming soon.*
+ [shangjing2023@outlook.com](mailto:shangjing2023@outlook.com)
+
 
 ---
 
-### CV
-[Download CV](your_cv.pdf)
+### **Education**
+
+- **Master of Management**, *Peking University*, _Sep. 2023 – Present_  
+- **Bachelor of Management**, *University of Chinese Academy of Social Sciences*, _Sep. 2019 – Jun. 2023_  
+- **Bachelor of Economics**, *University of Chinese Academy of Social Sciences*, _Sep. 2019 – Jun. 2023_  
+

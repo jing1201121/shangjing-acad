@@ -1,0 +1,40 @@
+---
+format:
+  html:
+    theme: flatly
+    css: styles.css
+---
+
+# Datasets
+
+Below is a list of datasets I have built and documented for empirical research on blockchain-based innovation, tokenomics, and open-source ecosystems.
+
+---
+
+## Dataset Collection
+
+
+ 
+
+1. [Cryptocurrency Schema](datasets/cryptocurrency_schema.md)  
+
+
+2. [On-chain Metrics Schema](datasets/onchain_metrics_schema.md)  
+
+
+3. [Market Structure Schema](datasets/market_structure_schema.md)  
+
+
+4. [Proposal Dataset Schema](datasets/proposal_dataset_schema.md)  
+
+
+5. [Client Development Activity Schema](datasets/client_dev_activity_schema.md)  
+
+
+6. [Token Supply Knowledge Graph Schema](datasets/token_supply_knowledge_graph_schema.md)  
+
+
+7. [Staking Metrics Schema](datasets/staking_metrics_schema_v2.md)  
+
+
+8. [Block-level Economic Activity Dataset](datasets/block_level_economic_activity_dataset.md)  

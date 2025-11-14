@@ -2,16 +2,40 @@ project:
   type: website
 
 website:
-  title: "Shang Jing"
+  title: "Jing Shang"
   navbar:
-    right:
-      - about.qmd
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - text: Dataset
+        menu:
+          - href: dataset.qmd
+            text: Overview
+          - href: datasets/cryptocurrency_schema.md
+            text: Cryptocurrency Schema
+          - href: datasets/onchain_metrics_schema.md
+            text: On-chain Metrics Schema
+          - href: datasets/market_structure_schema.md
+            text: Market Structure Schema
+          - href: datasets/proposal_dataset_schema.md
+            text: Proposal Dataset Schema
+          - href: datasets/client_dev_activity_schema.md
+            text: Client Development Activity Schema
+          - href: datasets/token_supply_knowledge_graph_schema.md
+            text: Token Supply Knowledge Graph Schema
+          - href: datasets/staking_metrics_schema_v2.md
+            text: Staking Metrics Schema
+          - href: datasets/block_level_economic_activity_dataset.md
+            text: Block-level Economic Activity Dataset
+      - href: CV.qmd
+        text: CV
+      - href: other.qmd
+        text: Other
 
 format:
   html:
     theme: flatly
     css: styles.css
-    toc: false
-
-metadata:
-  robots: "noindex, nofollow"
+    allow-raw-html: true
