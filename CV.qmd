@@ -1,5 +1,4 @@
 ---
-
 format:
   html:
     theme: flatly
@@ -7,10 +6,14 @@ format:
     allow-raw-html: true
 ---
 
-# CV & Transcripts
+# **CV & Transcripts**
 
-[📄 Download CV](CV_ASSET/Resume-Jing.pdf){.btn .btn-primary}
+<div style="margin-top:20px;">
 
-[📄 Undergraduate Transcript](CV_ASSET/transcriptUCASS.pdf){.btn .btn-primary}
+[📄 Download CV](CV_ASSET/Resume-Jing.pdf){.btn .btn-primary style="margin-right:10px;"}
+
+[📄 Undergraduate Transcript](CV_ASSET/transcriptUCASS.pdf){.btn .btn-primary style="margin-right:10px;"}
 
 [📄 Graduate Transcript](CV_ASSET/transcriptPKU.pdf){.btn .btn-primary}
+
+</div>

@@ -235,6 +235,6 @@
     "href": "CV.html",
     "title": "CV & Transcripts",
     "section": "",
-    "text": "format: html: theme: flatly css: styles.css allow-raw-html: true —\n\nCV & Transcripts\n📄 Download CV\n📄 Undergraduate Transcript\n📄 Graduate Transcript"
+    "text": "CV & Transcripts\n\n📄 Download CV\n📄 Undergraduate Transcript\n📄 Graduate Transcript"
   }
 ]
