@@ -229,5 +229,12 @@
     "title": "Datasets",
     "section": "",
     "text": "Cryptocurrency Schema\nOn-chain Metrics Schema\nMarket Structure Schema\nProposal Dataset Schema\nClient Development Activity Schema\nToken Supply Knowledge Graph Schema\nStaking Metrics Schema\nBlock-level Economic Activity Dataset"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "CV & Transcripts",
+    "section": "",
+    "text": "format: html: theme: flatly css: styles.css allow-raw-html: true —\n\nCV & Transcripts\n📄 Download CV\n📄 Undergraduate Transcript\n📄 Graduate Transcript"
   }
 ]

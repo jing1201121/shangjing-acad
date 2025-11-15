@@ -1,0 +1,16 @@
+---
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    allow-raw-html: true
+---
+
+# CV & Transcripts
+
+[📄 Download CV](CV_ASSET/Resume-Jing.pdf){.btn .btn-primary}
+
+[📄 Undergraduate Transcript](CV_ASSET/transcriptUCASS.pdf){.btn .btn-primary}
+
+[📄 Graduate Transcript](CV_ASSET/transcriptPKU.pdf){.btn .btn-primary}
