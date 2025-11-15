@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs      # ← 发布目录设为 docs
 
 website:
   title: "Jing Shang"
@@ -39,3 +40,4 @@ format:
     theme: flatly
     css: styles.css
     allow-raw-html: true
+    anchor-sections: false

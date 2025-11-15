@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>staking_metrics_schema_v2 – Jing Shang</title>
+<title>block_level_economic_activity_dataset – Jing Shang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -169,15 +168,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="blockchain-staking-metrics-dataset-schema-20152025" class="level1">
-<h1>Blockchain Staking Metrics Dataset Schema (2015–2025)</h1>
-<p>This dataset compiles the <strong>historical staking metrics</strong> of major Proof-of-Stake (PoS) blockchains from <strong>2015 to 2025</strong>, covering nearly <strong>80 networks</strong>.<br>
-The data is primarily sourced from <a href="https://www.stakingrewards.com/"><strong>Staking Rewards</strong></a>, obtained via its public API and standardized into a <strong>monthly time-series panel</strong>.</p>
-<p>The dataset captures the <strong>economic parameters and incentive structures</strong> of PoS ecosystems, allowing analysis of validator behavior, inflation dynamics, and long-term return profiles across different blockchain networks.</p>
-<p>The dataset captures the <strong>economic parameters and incentive structures</strong> of Proof-of-Stake (PoS) ecosystems, enabling analysis of validator returns, inflation dynamics, and staking participation across blockchain networks. It provides macro-level indicators of how network rewards, staking ratios, and inflation rates shape validator incentives and long-term yield sustainability. In contrast, the <a href="../datasets/block_level_economic_activity_dataset.html"><strong>Block-Level Economic Activity Dataset</strong></a> records <strong>micro-level block production data</strong>, detailing each block’s validator, rewards, gas usage, and transaction composition.</p>
+<section id="block-level-economic-activity-dataset" class="level1">
+<h1>Block-Level Economic Activity Dataset</h1>
+<p>This dataset provides a comprehensive record of block-level production and economic activity from three major blockchain networks — <strong>Ethereum</strong>, <strong>BNB Smart Chain</strong>, and <strong>Solana</strong>.<br>
+It systematically documents validator identities, reward structures, and key indicators of network operation, enabling analysis of network activity, validator incentives, and validator concentration.</p>
+<p>The dataset covers approximately <strong>2.0 million blocks from Ethereum</strong>, <strong>2.2 million blocks from BNB Smart Chain</strong>, and <strong>1.0 million randomly sampled slots from Solana</strong> (about 1% of all blocks between slot heights 200,000,000 and 300,000,000). Each record corresponds to a single block (or slot, for Solana) and includes structural, transactional, and economic variables derived directly from on-chain data.</p>
+<p>All data were collected using <strong>custom-built Python crawlers</strong> that directly interact with official blockchain RPC endpoints — <strong>Alchemy</strong> (Ethereum), the <strong>official BNB Smart Chain RPC</strong>, and <strong>Helius</strong> (Solana).</p>
+<p>The crawlers retrieve raw block metadata and transaction-level gas or reward information in parallel, ensuring reproducibility and consistency across networks. It enables in-depth empirical research on <strong>validator reward structures</strong>, <strong>block production efficiency</strong>, <strong>transaction fee mechanisms</strong>, and <strong>network decentralization patterns</strong> under different consensus protocols (<em>PoW</em>, <em>PoSA</em>, <em>PoH</em>).</p>
 <hr>
-<section id="dataset-overview" class="level2">
-<h2 class="anchored" data-anchor-id="dataset-overview">Dataset Overview</h2>
+<section id="ethereum-dataset-structure" class="level2">
+<h2 data-anchor-id="ethereum-dataset-structure">Ethereum Dataset Structure</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 38%">
@@ -191,44 +191,156 @@ The data is primarily sourced from <a href="https://www.stakingrewards.com/"><st
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>annualized_rewards_usd</strong></td>
-<td>Average staking rewards in USD, computed as native reward rate × staked tokens × token price.</td>
+<td><strong>block_number</strong></td>
+<td>Sequential block height on the Ethereum mainnet.</td>
 </tr>
 <tr class="even">
+<td><strong>miner_address</strong></td>
+<td>Address of the validator or miner responsible for producing the block.</td>
+</tr>
+<tr class="odd">
+<td><strong>timestamp_bj</strong></td>
+<td>Block timestamp converted to Beijing Time (UTC+8).</td>
+</tr>
+<tr class="even">
+<td><strong>extra_data</strong></td>
+<td>Raw metadata embedded by miners or validators (may contain client or pool identifiers).</td>
+</tr>
+<tr class="odd">
+<td><strong>entity_name</strong></td>
+<td>Normalized name of the mining pool or validator entity.</td>
+</tr>
+<tr class="even">
+<td><strong>base_fee_per_gas</strong></td>
+<td>Base gas fee (in Gwei) defined by EIP-1559 — the minimum fee per gas unit.</td>
+</tr>
+<tr class="odd">
+<td><strong>burnt_fees</strong></td>
+<td>Total ETH permanently burned in the block (<code>base_fee_per_gas × gas_used</code>).</td>
+</tr>
+<tr class="even">
+<td><strong>priority_fee</strong></td>
+<td>Aggregate priority (tip) fees paid to validators by users.</td>
+</tr>
+<tr class="odd">
+<td><strong>gas_used</strong></td>
+<td>Total gas consumed by all transactions within the block.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="bnb-smart-chain-dataset-structure" class="level2">
+<h2 data-anchor-id="bnb-smart-chain-dataset-structure">BNB Smart Chain Dataset Structure</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>block_number</strong></td>
+<td>Sequential block height on the BNB Smart Chain.</td>
+</tr>
+<tr class="even">
+<td><strong>timestamp_bj</strong></td>
+<td>Block timestamp converted to Beijing Time (UTC+8).</td>
+</tr>
+<tr class="odd">
+<td><strong>miner_address</strong></td>
+<td>Validator address responsible for producing the block.</td>
+</tr>
+<tr class="even">
+<td><strong>size_bytes</strong></td>
+<td>Raw size of the block (in bytes).</td>
+</tr>
+<tr class="odd">
+<td><strong>tx_count</strong></td>
+<td>Total number of transactions included in the block.</td>
+</tr>
+<tr class="even">
+<td><strong>gas_used</strong></td>
+<td>Total gas consumed by all transactions.</td>
+</tr>
+<tr class="odd">
+<td><strong>gas_limit</strong></td>
+<td>Maximum gas limit for the block.</td>
+</tr>
+<tr class="even">
+<td><strong>error</strong></td>
+<td>Indicator flag showing whether a block contained execution errors.</td>
+</tr>
+<tr class="odd">
 <td><strong>block_reward</strong></td>
-<td>Average number of tokens distributed per block to stakers (30-day rolling average if not directly available).</td>
+<td>Total reward distributed to the validator (in BNB).</td>
 </tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="solana-dataset-structure" class="level2">
+<h2 data-anchor-id="solana-dataset-structure">Solana Dataset Structure</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
-<td><strong>circulating_percentage</strong></td>
-<td>Circulating supply divided by total supply — indicates liquidity of staked assets.</td>
+<td><strong>slot</strong></td>
+<td>Slot number (analogous to block height in Solana).</td>
 </tr>
 <tr class="even">
-<td><strong>circulating_supply</strong></td>
-<td>Portion of the total supply that is freely transferable on the market.</td>
+<td><strong>timestamp_beijing</strong></td>
+<td>Slot timestamp converted to Beijing Time (UTC+8).</td>
 </tr>
 <tr class="odd">
-<td><strong>inflation_rate</strong></td>
-<td>Annualized monetary expansion rate of the token supply, based on reward emissions and total supply change. Higher values imply stronger dilution; lower values indicate scarcity.</td>
+<td><strong>leader</strong></td>
+<td>Slot leader (validator) responsible for block production.</td>
 </tr>
 <tr class="even">
-<td><strong>real_reward_rate</strong></td>
-<td>Nominal reward rate adjusted for inflation — reflects actual, inflation-adjusted returns for validators and delegators.</td>
+<td><strong>staking_reward_SOL</strong></td>
+<td>Total staking rewards distributed (in SOL).</td>
 </tr>
 <tr class="odd">
-<td><strong>reward_rate</strong></td>
-<td>Current annualized average staking reward rate across the network.</td>
+<td><strong>voting_reward_SOL</strong></td>
+<td>Voting rewards earned by validators (in SOL).</td>
 </tr>
 <tr class="even">
-<td><strong>staking_ratio</strong></td>
-<td>Share of eligible tokens currently staked or delegated — measures network participation and security.</td>
+<td><strong>fee_reward_SOL</strong></td>
+<td>Rewards from transaction fees (in SOL).</td>
 </tr>
 <tr class="odd">
-<td><strong>total_staking_wallets</strong></td>
-<td>Total number of unique wallet addresses actively staking or delegating — proxies decentralization and community engagement.</td>
+<td><strong>rent_reward_SOL</strong></td>
+<td>Rent rewards (in SOL).</td>
 </tr>
 <tr class="even">
-<td><strong>total_validators</strong></td>
-<td>Total number of validators participating in network consensus.</td>
+<td><strong>fee_total_SOL</strong></td>
+<td>Total transaction fees collected within the slot.</td>
+</tr>
+<tr class="odd">
+<td><strong>transactions_count</strong></td>
+<td>Number of transactions executed in the slot.</td>
+</tr>
+<tr class="even">
+<td><strong>reward_count</strong></td>
+<td>Number of reward events recorded.</td>
+</tr>
+<tr class="odd">
+<td><strong>reward_type_summary</strong></td>
+<td>Aggregated summary of reward types (e.g., “Staking:500; Voting:480”).</td>
 </tr>
 </tbody>
 </table>
@@ -241,13 +353,6 @@ The data is primarily sourced from <a href="https://www.stakingrewards.com/"><st
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

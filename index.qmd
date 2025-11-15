@@ -6,28 +6,38 @@ format:
     css: styles.css
 ---
 
-![](me.jpg){width=260px style="float:left;margin-right:30px;margin-bottom:10px;"}
+<!-- 整体容器 -->
+<div style="text-align:center; margin-top:20px;">
 
-### **Research Interest**
+  <!-- 大照片 -->
+![](me.jpg){width=420px style="display:block;margin:auto;"}
 
-My research focuses on **cryptocurrencies** and **blockchain-based open-source systems**, examining how **token-based incentives** shape technological innovation structures and ecosystem evolution.  
+</div>
 
+---
 
+### **About Me**
 
-This website is used to share my research progress, the datasets I am building, and related notes and materials.
+I am a Master’s student at the China Institute of Education Finance Research (CIEFR), Peking University.
 
 ---
 
 ### **Contact**
 
- [shangjing2023@outlook.com](mailto:shangjing2023@outlook.com)
-
+📧 [shangjing2023@outlook.com](mailto:shangjing2023@outlook.com)
 
 ---
 
 ### **Education**
 
-- **Master of Management**, *Peking University*, _Sep. 2023 – Present_  
-- **Bachelor of Management**, *University of Chinese Academy of Social Sciences*, _Sep. 2019 – Jun. 2023_  
-- **Bachelor of Economics**, *University of Chinese Academy of Social Sciences*, _Sep. 2019 – Jun. 2023_  
+- **Master of Management**, *Peking University (CIEFR)*  
+- **Bachelor of Management**, *University of Chinese Academy of Social Sciences*  
+- **Bachelor of Economics**, *University of Chinese Academy of Social Sciences*  
 
+---
+
+### **Research Interests**
+
+I study **cryptocurrencies**, **open-source innovation**, and **blockchain ecosystems**.  
+My research focuses on blockchain-based open-source ecosystems, examining the mechanisms that sustain continuous innovation and value production in decentralized environments.  
+This website presents my research projects, datasets, and related materials.

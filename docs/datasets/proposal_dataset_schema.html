@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>token_supply_knowledge_graph_schema – Jing Shang</title>
+<title>proposal_dataset_schema – Jing Shang</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -35,7 +70,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -169,14 +203,78 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="knowledge-graph-of-token-supply-mechanisms-in-blockchain-tokenomics" class="level1">
-<h1>Knowledge Graph of Token Supply Mechanisms in Blockchain Tokenomics</h1>
-<p>This self-constructed dataset represents a <strong>knowledge graph of token supply mechanisms</strong> across approximately <strong>300 blockchain systems</strong> and models how decentralized economies design, issue, and regulate their native tokens — forming a structured representation of <strong>blockchain-based monetary architectures</strong>.</p>
-<p>The database integrates textual and quantitative information from <strong>official whitepapers</strong>, <strong>project websites</strong>, and <strong>tokenomics data</strong> retrieved via a custom CoinMarketCap crawler. Using a <strong>large language model (DeepSeek-V3)</strong>, unstructured textual descriptions were automatically extracted and transformed into structured fields, followed by <strong>manual verification and analytical classification</strong>.</p>
-<p>This knowledge graph bridges <strong>institutional narratives and economic parameters</strong>, allowing comparative analysis of how blockchain networks embed monetary policy, issuance incentives, and deflationary adjustments within their protocol designs.</p>
+<section id="blockchain-proposal-dataset-schema" class="level1">
+<h1>Blockchain Proposal Dataset Schema</h1>
+<p>This dataset collects <strong>all publicly available proposal documents</strong> from major blockchain ecosystems — including <strong>Ethereum</strong>, <strong>Solana</strong>, and <strong>BNB Chain</strong> — and parses their original Markdown (<code>.md</code>) files into a unified, machine-readable <strong>CSV format</strong>.<br>
+It enables structured analysis of protocol innovation, governance evolution, and inter-proposal dependency networks.</p>
 <hr>
-<section id="dataset-overview" class="level2">
-<h2 class="anchored" data-anchor-id="dataset-overview">Dataset Overview</h2>
+<section id="source-description" class="level2">
+<h2 data-anchor-id="source-description">Source Description</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ecosystem</th>
+<th>Repository</th>
+<th>Example File</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ethereum (EIPs &amp; ERCs)</strong></td>
+<td><a href="https://github.com/ethereum/EIPs">ethereum/EIPs</a></td>
+<td><code>EIPS/eip-1.md</code></td>
+</tr>
+<tr class="even">
+<td><strong>Solana (SIPs)</strong></td>
+<td><a href="https://github.com/solana-foundation/solana-improvement-documents">solana-foundation/solana-improvement-documents</a></td>
+<td><code>sips/sip-1.md</code></td>
+</tr>
+<tr class="odd">
+<td><strong>BNB Chain (BEPs)</strong></td>
+<td><a href="https://github.com/bnb-chain/BEPs">bnb-chain/BEPs</a></td>
+<td><code>BEPs/BEP1.md</code></td>
+</tr>
+</tbody>
+</table>
+<p>Each proposal file follows a standardized Markdown structure:</p>
+<ol type="1">
+<li><strong>Front Matter (YAML headers)</strong> — structured metadata such as ID, title, type, status, author(s), and creation date.<br>
+</li>
+<li><strong>Main Body</strong> — narrative content including <em>Abstract</em>, <em>Motivation</em>, <em>Specification</em>, and <em>Rationale</em> sections.</li>
+</ol>
+<p>Example (from <strong>EIP-1</strong>):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">eip:</span><span class="co"> 1</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> EIP Purpose and Guidelines</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">status:</span><span class="co"> Living</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">type:</span><span class="co"> Meta</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> Martin Becze &lt;mb@ethereum.org&gt;, Hudson Jameson &lt;hudson@ethereum.org&gt;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">created:</span><span class="co"> 2015-10-27</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="conceptual-background" class="level2">
+<h2 data-anchor-id="conceptual-background">Conceptual Background</h2>
+<p>Improvement proposals (IPs) serve as formal governance and coordination mechanisms for blockchain ecosystems.</p>
+<ul>
+<li><strong>EIPs (Ethereum Improvement Proposals)</strong> define changes to the Ethereum protocol, interfaces, and applications.
+<ul>
+<li><strong>ERCs (Ethereum Request for Comments)</strong> are <em>application-level</em> EIPs specifying standards like ERC-20 and ERC-721.<br>
+</li>
+<li>In this dataset, ERCs are categorized within EIPs under <code>category = "ERC"</code>.<br>
+</li>
+</ul></li>
+<li><strong>SIPs (Solana Improvement Proposals)</strong> describe proposed enhancements to Solana’s runtime, consensus, or development layers.<br>
+</li>
+<li><strong>BEPs (BNB Chain Evolution Proposals)</strong> formalize protocol and token-standard changes within the BNB ecosystem.</li>
+</ul>
+<p>All proposals progress through stages such as<br>
+<code>Idea → Draft → Review → Last Call → Final → Living / Withdrawn</code>,<br>
+capturing the technical and governance lifecycles of blockchain standards.</p>
+<hr>
+</section>
+<section id="file-table-structure" class="level2">
+<h2 data-anchor-id="file-table-structure">File Table Structure</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 38%">
@@ -190,68 +288,59 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Chain</strong></td>
-<td>Name of the blockchain system.</td>
+<td><strong>id</strong></td>
+<td>Unique proposal identifier (e.g., <code>EIP-1559</code>, <code>ERC-20</code>, <code>SIP-12</code>, <code>BEP-2</code>)</td>
 </tr>
 <tr class="even">
-<td><strong>ID</strong></td>
-<td>Identifier for linking with the cryptocurrency dataset.</td>
+<td><strong>title</strong></td>
+<td>Short, descriptive title of the proposal</td>
 </tr>
 <tr class="odd">
-<td><strong>Slug</strong></td>
-<td>Standardized URL-friendly identifier used for cross-dataset matching.</td>
+<td><strong>type</strong></td>
+<td>Proposal type (<code>Standards Track</code>, <code>Meta</code>, <code>Informational</code>, etc.)</td>
 </tr>
 <tr class="even">
-<td><strong>Chain_year</strong></td>
-<td>Year when the blockchain mainnet was launched.</td>
+<td><strong>status</strong></td>
+<td>Lifecycle status (<code>Draft</code>, <code>Review</code>, <code>Final</code>, <code>Living</code>, <code>Withdrawn</code>, etc.)</td>
 </tr>
 <tr class="odd">
-<td><strong>if_layer2</strong></td>
-<td>Whether the chain functions as an Ethereum Layer-2 network.</td>
+<td><strong>created</strong></td>
+<td>Proposal creation date (ISO 8601 format)</td>
 </tr>
 <tr class="even">
-<td><strong>overview</strong></td>
-<td>Concise textual summary of the blockchain’s positioning and design.</td>
+<td><strong>requires</strong></td>
+<td>List of proposal IDs that this proposal depends on</td>
 </tr>
 <tr class="odd">
-<td><strong>technology</strong></td>
-<td>Description of the blockchain’s technical architecture or consensus mechanism.</td>
+<td><strong>author</strong></td>
+<td>Author name(s) or GitHub handle(s)</td>
 </tr>
 <tr class="even">
-<td><strong>tokenomics</strong></td>
-<td>Tokenomics-related data collected via the CoinMarketCap crawler — one of the main textual sources for model extraction.</td>
+<td><strong>in_degree</strong></td>
+<td>Number of proposals citing this one</td>
 </tr>
 <tr class="odd">
-<td><strong>team</strong></td>
-<td>Core development team or founding organization.</td>
+<td><strong>out_degree</strong></td>
+<td>Number of other proposals cited by this one</td>
 </tr>
 <tr class="even">
-<td><strong>issuance_detail</strong></td>
-<td>Token issuance descriptions automatically extracted from whitepapers and official communications using DeepSeek-V3.</td>
+<td><strong>citation</strong></td>
+<td>List of referenced proposals (outgoing citations)</td>
 </tr>
 <tr class="odd">
-<td><strong>issuance_mechanism</strong></td>
-<td>Classified type of issuance method (e.g., PoS, PoW, airdrop, vesting).</td>
+<td><strong>cited</strong></td>
+<td>List of proposals that cite this one (incoming citations)</td>
 </tr>
 <tr class="even">
-<td><strong>vesting_type</strong></td>
-<td>Type of vesting schedule, if applicable (cliff or linear).</td>
+<td><strong>abstract</strong></td>
+<td>Concise technical summary from the Markdown <em>Abstract</em> section</td>
 </tr>
 <tr class="odd">
-<td><strong>supply_slowdown_detail</strong></td>
-<td>Textual information describing token-burning, halving, or other supply-control mechanisms.</td>
-</tr>
-<tr class="even">
-<td><strong>supply_slowdown_mechanism</strong></td>
-<td>Classified type of deflationary mechanism (e.g., fee burn, reward reduction).</td>
-</tr>
-<tr class="odd">
-<td><strong>has_staking_mechanism</strong></td>
-<td>Indicates whether the blockchain employs staking or delegation as part of its token utility.</td>
+<td><strong>category</strong></td>
+<td>Top-level classification (<code>Core</code>, <code>Networking</code>, <code>Interface</code>, <code>ERC</code>, etc.)</td>
 </tr>
 </tbody>
 </table>
-<hr>
 
 
 </section>
@@ -260,13 +349,6 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
