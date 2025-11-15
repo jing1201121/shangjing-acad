@@ -20,21 +20,25 @@ format:
 
 I am a Master’s student at the China Institute of Education Finance Research (CIEFR), Peking University.
 
----
+
 
 ### **Contact**
 
 📧 [shangjing2023@outlook.com](mailto:shangjing2023@outlook.com)
 
----
+
 
 ### **Education**
 
 - **Master of Management**, *Peking University (CIEFR)*  
-- **Bachelor of Management**, *University of Chinese Academy of Social Sciences*  
-- **Bachelor of Economics**, *University of Chinese Academy of Social Sciences*  
+  *2023.9 – present*
 
----
+- **Bachelor of Management**, *University of Chinese Academy of Social Sciences*  
+  *2019.9 – 2023.6*
+
+- **Bachelor of Economics**, *University of Chinese Academy of Social Sciences*  
+  *2019.9 – 2023.6*
+
 
 ### **Research Interests**
 
