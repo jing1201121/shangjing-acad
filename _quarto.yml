@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs      # ← 发布目录设为 docs
+  output-dir: docs
 
 website:
   title: "Jing Shang"
