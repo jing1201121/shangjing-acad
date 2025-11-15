@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+resources:
+  - CV_ASSET/**
+
 website:
   title: "Jing Shang"
   navbar:
