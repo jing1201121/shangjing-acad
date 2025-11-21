@@ -7,7 +7,7 @@ format:
 
 # Datasets
 
-Below is a list of datasets I have built and documented for empirical research on blockchain-based innovation, tokenomics, and open-source ecosystems.
+Below is a list of datasets I have built and documented for empirical research on blockchain-based innovation, tokenomics, and open-source ecosystems. These datasets combine cryptocurrency information and trading data with measures of innovation and economic activity across major blockchain ecosystems, spanning core protocol development and client maintenance, validator behavior, upper-layer applications, and on-chain transactions.
 
 ---
 

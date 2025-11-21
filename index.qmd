@@ -43,5 +43,5 @@ I am a Master’s student at the China Institute of Education Finance Research (
 ### **Research Interests**
 
 I study **cryptocurrencies**, **open-source innovation**, and **blockchain ecosystems**.  
-My research focuses on blockchain-based open-source ecosystems, examining the mechanisms that sustain continuous innovation and value production in decentralized environments.  
+My research focuses on blockchain-based open-source innovation, examining the mechanisms that sustain continuous innovation and value production in decentralized environments. From a broader perspective, I aim to explore how blockchain, as an emerging technology, reshapes the market structures and resource allocation mechanisms of digital platforms.  
 This website presents my research projects, datasets, and related materials.

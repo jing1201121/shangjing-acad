@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Jing Shang",
     "section": "",
-    "text": "About Me\nI am a Master’s student at the China Institute of Education Finance Research (CIEFR), Peking University.\n\n\nContact\n📧 shangjing2023@outlook.com\n\n\nEducation\n\nMaster of Management, Peking University (CIEFR)\n2023.9 – present\nBachelor of Management, University of Chinese Academy of Social Sciences\n2019.9 – 2023.6\nBachelor of Economics, University of Chinese Academy of Social Sciences\n2019.9 – 2023.6\n\n\n\nResearch Interests\nI study cryptocurrencies, open-source innovation, and blockchain ecosystems.\nMy research focuses on blockchain-based open-source ecosystems, examining the mechanisms that sustain continuous innovation and value production in decentralized environments.\nThis website presents my research projects, datasets, and related materials."
+    "text": "About Me\nI am a Master’s student at the China Institute of Education Finance Research (CIEFR), Peking University.\n\n\nContact\n📧 shangjing2023@outlook.com\n\n\nEducation\n\nMaster of Management, Peking University (CIEFR)\n2023.9 – present\nBachelor of Management, University of Chinese Academy of Social Sciences\n2019.9 – 2023.6\nBachelor of Economics, University of Chinese Academy of Social Sciences\n2019.9 – 2023.6\n\n\n\nResearch Interests\nI study cryptocurrencies, open-source innovation, and blockchain ecosystems.\nMy research focuses on blockchain-based open-source innovation, examining the mechanisms that sustain continuous innovation and value production in decentralized environments. From a broader perspective, I aim to explore how blockchain, as an emerging technology, reshapes the market structures and resource allocation mechanisms of digital platforms.\nThis website presents my research projects, datasets, and related materials."
   },
   {
     "objectID": "datasets/proposal_dataset_schema.html",
@@ -221,7 +221,7 @@
     "href": "dataset.html",
     "title": "Datasets",
     "section": "",
-    "text": "Below is a list of datasets I have built and documented for empirical research on blockchain-based innovation, tokenomics, and open-source ecosystems.\n\n\n\n\nCryptocurrency Schema\nOn-chain Metrics Schema\nMarket Structure Schema\nProposal Dataset Schema\nClient Development Activity Schema\nToken Supply Knowledge Graph Schema\nStaking Metrics Schema\nBlock-level Economic Activity Dataset"
+    "text": "Below is a list of datasets I have built and documented for empirical research on blockchain-based innovation, tokenomics, and open-source ecosystems. These datasets combine cryptocurrency information and trading data with measures of innovation and economic activity across major blockchain ecosystems, spanning core protocol development and client maintenance, validator behavior, upper-layer applications, and on-chain transactions.\n\n\n\n\nCryptocurrency Schema\nOn-chain Metrics Schema\nMarket Structure Schema\nProposal Dataset Schema\nClient Development Activity Schema\nToken Supply Knowledge Graph Schema\nStaking Metrics Schema\nBlock-level Economic Activity Dataset"
   },
   {
     "objectID": "dataset.html#dataset-collection",
