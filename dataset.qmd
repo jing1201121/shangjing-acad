@@ -7,34 +7,35 @@ format:
 
 # Datasets
 
-Below is a list of datasets I have built and documented for empirical research on blockchain-based innovation, tokenomics, and open-source ecosystems. These datasets combine cryptocurrency information and trading data with measures of innovation and economic activity across major blockchain ecosystems, spanning core protocol development and client maintenance, validator behavior, upper-layer applications, and on-chain transactions.
+Below is a list of datasets I have built and documented for empirical research. These datasets are categorized into two main groups: Blockchain & Cryptocurrency and AI research. 
 
 ---
 
-## Dataset Collection
+## Blockchain & Cryptocurrency Datasets
 
-
- 
+Below are the datasets I have developed and documented for my research on blockchain-based innovation, tokenomics, and open-source ecosystems. These datasets combine cryptocurrency information and trading data with measures of innovation and economic activity across major blockchain ecosystems, spanning core protocol development and client maintenance, validator behavior, upper-layer applications, and on-chain transactions.
 
 1. [Cryptocurrency Schema](datasets/cryptocurrency_schema.md)  
 
-
 2. [On-chain Metrics Schema](datasets/onchain_metrics_schema.md)  
-
 
 3. [Market Structure Schema](datasets/market_structure_schema.md)  
 
-
 4. [Proposal Dataset Schema](datasets/proposal_dataset_schema.md)  
-
 
 5. [Client Development Activity Schema](datasets/client_dev_activity_schema.md)  
 
-
 6. [Token Supply Knowledge Graph Schema](datasets/token_supply_knowledge_graph_schema.md)  
-
 
 7. [Staking Metrics Schema](datasets/staking_metrics_schema_v2.md)  
 
-
 8. [Block-level Economic Activity Dataset](datasets/block_level_economic_activity_dataset.md)  
+
+---
+
+## AI Dataset
+
+Below are the datasets I cleaned, focused on AI publications, authorship, and research institutions. This dataset serves as a foundation for analyzing patterns in AI research trends and collaboration.
+
+1. [AI Publications Dataset](datasets/ai_publications_dataset.md)
+

@@ -13,7 +13,7 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - text: Dataset
+      - text: Datasets
         menu:
           - href: dataset.qmd
             text: Overview
@@ -33,6 +33,8 @@ website:
             text: Staking Metrics Schema
           - href: datasets/block_level_economic_activity_dataset.md
             text: Block-level Economic Activity Dataset
+          - href: datasets/ai_publications_dataset.md
+            text: AI Publications Dataset
       - href: CV.qmd
         text: CV
       - href: other.qmd
