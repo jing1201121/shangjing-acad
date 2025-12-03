@@ -6,14 +6,39 @@ format:
     allow-raw-html: true
 ---
 
-# **CV & Transcripts**
+# **CV & Selected Coursework**
 
 <div style="margin-top:20px;">
 
 [📄 Download CV](CV_ASSET/Resume-Jing.pdf){.btn .btn-primary style="margin-right:10px;"}
 
-[📄 Undergraduate Transcript](CV_ASSET/transcriptUCASS.pdf){.btn .btn-primary style="margin-right:10px;"}
-
-[📄 Graduate Transcript](CV_ASSET/transcriptPKU.pdf){.btn .btn-primary}
-
 </div>
+
+## Mathematics & Methods Courses
+
+| Level         | Course                     | Grade |
+|--------------|----------------------------|:-----:|
+| Undergraduate| Calculus I                 | 83    |
+| Undergraduate| Calculus II                | 100   |
+| Undergraduate| Linear Algebra             | 87    |
+| Undergraduate| Probability and Statistics | 99    |
+| Undergraduate| Statistics                 | 94    |
+| Undergraduate| Basic Programming (Python) | 97    |
+| Undergraduate| Econometrics               | 97    |
+| Undergraduate| Mathematical Modeling      | 88    |
+| Undergraduate| Math Experiment            | 89    |
+| Graduate     | Advanced Econometrics      | B+    |
+| Graduate     | Social Networks            | A     |
+
+## Field & Professional Courses
+
+| Level         | Course                                             | Grade |
+|--------------|----------------------------------------------------|:-----:|
+| Undergraduate| Intermediate Microeconomics                        | 90    |
+| Undergraduate| Intermediate Macroeconomics                        | 85    |
+| Undergraduate| Financial Management                               | 93    |
+| Undergraduate| Economics of Money                                 | 91    |
+| Undergraduate| Management                                         | 91    |
+| Undergraduate| Investments                                        | 84    |
+| Graduate     | Innovation Economics and Science & Technology Fiscal Policy | A+ |
+| Graduate     | Science, Technology and Political Changes          | B+    |

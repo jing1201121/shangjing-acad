@@ -7,15 +7,111 @@ format:
 ---
 
 Below are my major research projects during my **Master’s** and **Bachelor’s** studies.
-  
 
 
 
-## Master Research Projects (PKU)
+## Working Papers
+
+### Reframing Money: Blockchain-Native Tokens as Endogenous Drivers of Innovation and Growth in Decentralized Economies
+
+*Working Paper*, 2025  
+*In cooperation with* [Dong Zhang](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dong-zhang-dongzhang#publications) *(Assoc. Prof., Division of Social Science, HKUST)*  
+**Supervisor:** [Mingxing Liu](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/7ff78cb582684f71be56b6d41f4048dc.htm) (Prof., CIEFR, Peking University)  
+
+[📄 Download](PAPER_ASSET/writing_sample.pdf){.btn .btn-primary}
+
+<details>
+<summary><strong>Abstract (click to expand)</strong></summary>
+
+Studies on cryptocurrencies have predominantly focused on their role as financial infrastructure and their impact on existing monetary systems, while overlooking the institutional logic that positions cryptocurrencies as a new form of money. Many analyses still adhere to the classical “monetary veil” paradigm, which underestimates cryptocurrencies because of their perceived instability in fulfilling the traditional functions of money—unit of account, medium of exchange, and store of value.
+
+This paper challenges this view by arguing that decentralized, permissionless blockchain-native tokens are aligned with Joseph Schumpeter’s Credit Theory of Money (CTM), particularly in their role in fostering entrepreneurial innovation. We introduce the concept of a **Productive Deflationary Token Regime**, in which seigniorage is directed toward ecosystem expanders and incentives are stabilized through deflationary design. By reshaping issuance and reward structures, this regime allows blockchain ecosystems to maintain a continuous but non-explosive flow of token supply and to remain operational across boom–bust cycles, rather than letting incentives expand and collapse with short-term price movements. This approach enables the active organization of production and market growth independent of state-backed or centralized banking systems. Unlike traditional credit money, the Productive Deflationary Token Regime supports decentralized, endogenous economic expansion and innovation, representing a blockchain-driven evolution of Schumpeter’s model of innovation mobilization in the digital economy.
+
+</details>
+
+<details>
+<summary><strong>Theoretical Model & Selected Findings (click to expand)</strong></summary>
+
+#### Theoretical Model: Productive-Deflationary Token Regime
+
+Blockchain networks and their productive-deflationary tokens embody a new type of market order in which token-based incentives guide market expansion. The core institutional function of these tokens is not simply to “reward” individual producers, but to mobilize future markets.
+
+- **Costs and Sources of Value of Productive Tokens**  
+  Productive tokens are issued conditional on real productive activities—such as block production, transaction validation, provision of computing resources, and liquidity. Newly minted tokens (seigniorage) are allocated to these producers as rewards, and each unit of supply is backed by a non-trivial production cost (e.g., PoW hash power, PoS staking opportunity cost). Users demand blockspace and must hold and spend tokens to access it, and this demand supports token value. By contrast, zero-cost issuance via marketing airdrops or vesting unlocks is often not anchored in comparable value creation.
+
+- **Survival Logic of Productive Tokens: Ecosystem Expansion**  
+  The survival of productive tokens as a reward instrument depends on whether their underlying networks are actually used. In a competitive token environment, only ecosystems that keep expanding can sustain and increase demand for blockspace and tokens, thereby supporting token value and producers’ expected returns. Market competition thus pushes token producers to drive ecosystem expansion. In this sense, seigniorage is effectively allocated to ecosystem expanders who take on the risk of discovering and cultivating new demand.
+
+- **Deflationary Mechanisms: the Key to Sustain Incentive Stability and Continuous Ecosystem Expansion**  
+   The purpose of deflationary mechanisms is not to raise short-term prices, but to reshape the incentive structure across market states: in downturns, by maintaining reward strength and preventing an abrupt collapse of incentives; in booms, by restraining excessive extraction of ecosystem value and limiting short-term rent seeking. This keeps token supply relatively smooth and sustainable, and over the long run brings the pace of issuance into rough alignment with the ecosystem’s underlying demand, enabling networks to continuously attract and retain producers and support further ecosystem growth.
+
+---
+
+#### Selected Empirical Findings
+
+**1. Deflationary mechanisms concentrate in productive tokens**
+
+Deflationary mechanisms refer to token supply structures that adjust token supply either by reducing total supply or by changing the rate of new issuance. Empirically, they are disproportionately concentrated in productive tokens, suggesting that ecosystems tying token issuance to real production are more likely to rely on supply adjustment to sustain long-run incentives.  
+
+![](PAPER_ASSET/fig2_deflationary_mechanisms.png)
+
+<p style="font-size:0.85em; text-align:center; margin-top:4px;">
+  Figure 2. Yearly changes in deflationary mechanisms among productive and non-productive tokens, 2010–2024.
+</p>
+
+---
+
+**2. Ecosystems backed by productive-deflationary tokens stand out in value, capital, and developer activity**
+
+Ecosystems backed by productive-deflationary tokens exhibit stronger price resilience and liquidity, higher capital retention, and greater developer concentration than other token regimes.
+
+![](PAPER_ASSET/fig4_token_value_distribution.png)
+
+<p style="font-size:0.8em; text-align:center; margin-top:4px;">
+  Figure 4. Token Value Distribution, 2020–2024.
+</p>
+
+
+![](PAPER_ASSET/fig8_supply_mechanism_tvl_quartiles.png)
+
+<p style="font-size:0.8em; text-align:center; margin-top:4px; margin-bottom:0;">
+  Figure 8. Supply Mechanism Distribution Across TVL Quartiles, 2021–2024.
+</p>
+<p style="font-size:0.8em; text-align:left; margin-top:0;">
+  Note: TVL is used as a proxy for capital commitment and on-chain liquidity.
+</p>
+
+
+![](PAPER_ASSET/fig10_interchain_deployment_network.png)
+
+<p style="font-size:0.8em; text-align:center; margin-top:4px; margin-bottom:0;">
+  Figure 10. Inter-chain Deployment Network of Decentralized Applications across Blockchain Platforms.
+</p>
+<p style="font-size:0.8em; text-align:left; margin-top:0;">
+  Note: The network includes only decentralized applications with positive realized protocol revenue and chains on which at least one such dApp is deployed. Most revenue-generating dApps are deployed on chains backed by productive-deflationary tokens. The activities of these dApps are closely tied to actual usage demand for both the chains and their native tokens.
+</p>
+
+---
+
+**3. Stable inflation rates across market cycles**
+
+Annual inflation rates for productive-deflationary tokens remain relatively stable across market cycles. This pattern is consistent with a more balanced and sustainable incentive structure, allowing blockchain ecosystems to maintain a continuous, non-extreme flow of token supply and to remain operational across boom–bust cycles, rather than letting incentives expand and collapse with short-term price movements.  
+
+![](PAPER_ASSET/fig11_inflation_distribution.png)
+
+<p style="font-size:0.8em; text-align:center; margin-top:4px;">
+  Figure 11. Annual Inflation Rate Distribution by Token Category, 2020–2024.
+</p>
+
+</details>
+
+---
+
+## Work in Progress
 
 ### Innovation Structure and Revenue Distribution in Blockchain Open-Source Ecosystems  
-*Principal Researcher*  
-*Working in Progress*  
+*Principal Researcher*, 2025  
+*Work in Progress*  
 **Supervisor:** [Mingxing Liu](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/7ff78cb582684f71be56b6d41f4048dc.htm) (Prof., CIEFR, Peking University)
 
 <details>
@@ -31,35 +127,7 @@ The core objective of this study is to identify how innovation at different laye
 
 ---
 
-### Reframing Money: Blockchain-Native Tokens as Endogenous Drivers of Innovation and Growth in Decentralized Economies
-*In cooperation with [Dong Zhang](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dong-zhang-dongzhang#publications) (Assoc. Prof., Division of Social Science, HKUST)*  
-*Working Paper*, 2025  
-**Supervisor:** [Mingxing Liu](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/7ff78cb582684f71be56b6d41f4048dc.htm) (Prof., CIEFR, Peking University)
-
-<details>
-<summary><strong>Abstract (click to expand)</strong></summary>
-
-This project reframes blockchain-native tokens not merely as financial instruments but as endogenous drivers of innovation and economic expansion in decentralized ecosystems. Existing research often evaluates cryptocurrencies through the traditional functions of money, overlooking their capacity to act as productive capital that coordinates and mobilizes ecosystem growth. This study argues that decentralized, permissionless tokens operate through a mechanism analogous to Schumpeter’s credit-driven innovation cycle, whereby credit creation fuels entrepreneurial experimentation and technological advancement.
-
-We term this dynamic the **Productive Deflationary Token Regime**: by channeling seigniorage toward ecosystem expanders and maintaining incentive stability through deflationary token design, blockchain networks can sustain innovation without relying on state authority or centralized credit issuance. This mechanism supports decentralized, endogenous growth, offering a new perspective on how tokenized systems organize production, reward innovation, and generate long-run economic dynamism.
-
-</details>
-
----
-
-### Returnee Scientists’ Academic Performance and Network Position: A Case Study of a National Key Laboratory in Information Science  
-*Principal Researcher*  
-*Final Project for the course Advanced Econometrics*, 2024  
-**Supervisor:** [Qiong Zhu](https://www.gse.pku.edu.cn/szdw/jxkyry/jyjjyglx/132907.htm) (Asst. Prof., Peking University)
-
-<details>
-<summary><strong>Abstract (click to expand)</strong></summary>
-
-Drawing on CV information and Scopus publication records for researchers in China’s information-science State Key Laboratories (2016–2021), this study constructs annual co-authorship networks and applies social network analysis to compare the academic performance and collaborative positions of returnee and domestic scholars. Empirically, returnees exhibit higher publication output, greater international collaboration, and higher citation impact—patterns particularly pronounced within CAS-affiliated laboratories. Network evidence shows that returnees in CAS labs tend to occupy peripheral or fragmented positions and rely more on overseas-oriented ties, whereas returnees in university laboratories integrate more readily into core research communities and more frequently serve as bridging actors. Consistently lower clustering coefficients but higher betweenness centrality among returnees highlight their distinctive role as connectors linking domestic and global scientific networks.
-
-</details>
-
----
+## Published / Forthcoming
 
 ### Unwilling or Unable to Marry? Marriage Intentions among the Second Generation of Internal Migrants
 *In collaboration with* [Ran Zhang](https://www.gse.pku.edu.cn/szdw/jxkyry/jyglyzcx/32236.htm) *(Assoc. Prof., PKU)*, Mingyue Yang, Sihong Ren, [Yingquan Song](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/84f2f9a1b4ca46a696d89e325796c54d.htm) *(Assoc. R., CIEFR)*  
@@ -75,7 +143,21 @@ China’s second-generation migrants have reached marriageable age, and their mo
 
 ---
 
-## Bachelor Research Projects (UCASS)
+## Other Research (Theses, Course Papers & Competitions)
+
+### Returnee Scientists’ Academic Performance and Network Position: A Case Study of a National Key Laboratory in Information Science  
+*Principal Researcher*  
+*Final Project for the course Advanced Econometrics*, 2024  
+**Supervisor:** [Qiong Zhu](https://www.gse.pku.edu.cn/szdw/jxkyry/jyjjyglx/132907.htm) (Asst. Prof., Peking University)
+
+<details>
+<summary><strong>Abstract (click to expand)</strong></summary>
+
+Drawing on CV information and Scopus publication records for researchers in China’s information-science State Key Laboratories (2016–2021), this study constructs annual co-authorship networks and applies **social network analysis** to compare the academic performance and collaborative positions of returnee and domestic scholars. Empirically, returnees exhibit higher publication output, greater international collaboration, and higher citation impact—patterns particularly pronounced within CAS-affiliated laboratories. Network evidence shows that returnees in CAS labs tend to occupy peripheral or fragmented positions and rely more on overseas-oriented ties, whereas returnees in university laboratories integrate more readily into core research communities and more frequently serve as bridging actors. Consistently lower clustering coefficients but higher betweenness centrality among returnees highlight their distinctive role as connectors linking domestic and global scientific networks.
+
+</details>
+
+---
 
 ### The Impact of Enterprise Digital Transformation on the Quality of Accounting Information  
 *Principal Researcher*  
