@@ -8,15 +8,14 @@ format:
 
 Below are my major research projects during my **Master’s** and **Bachelor’s** studies.
 
-
+---
 
 ## Working Papers
 
 ### Reframing Money: Blockchain-Native Tokens as Endogenous Drivers of Innovation and Growth in Decentralized Economies
 
 *Working Paper*, 2025  
-*In cooperation with* [Dong Zhang](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dong-zhang-dongzhang#publications) *(Assoc. Prof., Division of Social Science, HKUST)*  
-**Supervisor:** [Mingxing Liu](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/7ff78cb582684f71be56b6d41f4048dc.htm) (Prof., CIEFR, Peking University)  
+*In cooperation with* [Dong Zhang](https://facultyprofiles.hkust.edu.hk/profiles.php?profile=dong-zhang-dongzhang#publications) *(Assoc. Prof., Division of Social Science, HKUST)* **Supervisor:** [Mingxing Liu](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/7ff78cb582684f71be56b6d41f4048dc.htm) (Prof., CIEFR, Peking University)  
 
 [📄 Download](PAPER_ASSET/writing_sample.pdf){.btn .btn-primary}
 
@@ -36,14 +35,11 @@ This paper challenges this view by arguing that decentralized, permissionless bl
 
 Blockchain networks and their productive-deflationary tokens embody a new type of market order in which token-based incentives guide market expansion. The core institutional function of these tokens is not simply to “reward” individual producers, but to mobilize future markets.
 
-- **Costs and Sources of Value of Productive Tokens**  
-  Productive tokens are issued conditional on real productive activities—such as block production, transaction validation, provision of computing resources, and liquidity. Newly minted tokens (seigniorage) are allocated to these producers as rewards, and each unit of supply is backed by a non-trivial production cost (e.g., PoW hash power, PoS staking opportunity cost). Users demand blockspace and must hold and spend tokens to access it, and this demand supports token value. By contrast, zero-cost issuance via marketing airdrops or vesting unlocks is often not anchored in comparable value creation.
+- **Costs and Sources of Value of Productive Tokens** Productive tokens are issued conditional on real productive activities—such as block production, transaction validation, provision of computing resources, and liquidity. Newly minted tokens (seigniorage) are allocated to these producers as rewards, and each unit of supply is backed by a non-trivial production cost (e.g., PoW hash power, PoS staking opportunity cost). Users demand blockspace and must hold and spend tokens to access it, and this demand supports token value. By contrast, zero-cost issuance via marketing airdrops or vesting unlocks is often not anchored in comparable value creation.
 
-- **Survival Logic of Productive Tokens: Ecosystem Expansion**  
-  The survival of productive tokens as a reward instrument depends on whether their underlying networks are actually used. In a competitive token environment, only ecosystems that keep expanding can sustain and increase demand for blockspace and tokens, thereby supporting token value and producers’ expected returns. Market competition thus pushes token producers to drive ecosystem expansion. In this sense, seigniorage is effectively allocated to ecosystem expanders who take on the risk of discovering and cultivating new demand.
+- **Survival Logic of Productive Tokens: Ecosystem Expansion** The survival of productive tokens as a reward instrument depends on whether their underlying networks are actually used. In a competitive token environment, only ecosystems that keep expanding can sustain and increase demand for blockspace and tokens, thereby supporting token value and producers’ expected returns. Market competition thus pushes token producers to drive ecosystem expansion. In this sense, seigniorage is effectively allocated to ecosystem expanders who take on the risk of discovering and cultivating new demand.
 
-- **Deflationary Mechanisms: the Key to Sustain Incentive Stability and Continuous Ecosystem Expansion**  
-   The purpose of deflationary mechanisms is not to raise short-term prices, but to reshape the incentive structure across market states: in downturns, by maintaining reward strength and preventing an abrupt collapse of incentives; in booms, by restraining excessive extraction of ecosystem value and limiting short-term rent seeking. This keeps token supply relatively smooth and sustainable, and over the long run brings the pace of issuance into rough alignment with the ecosystem’s underlying demand, enabling networks to continuously attract and retain producers and support further ecosystem growth.
+- **Deflationary Mechanisms: the Key to Sustain Incentive Stability and Continuous Ecosystem Expansion** The purpose of deflationary mechanisms is not to raise short-term prices, but to reshape the incentive structure across market states: in downturns, by maintaining reward strength and preventing an abrupt collapse of incentives; in booms, by restraining excessive extraction of ecosystem value and limiting short-term rent seeking. This keeps token supply relatively smooth and sustainable, and over the long run brings the pace of issuance into rough alignment with the ecosystem’s underlying demand, enabling networks to continuously attract and retain producers and support further ecosystem growth.
 
 ---
 
@@ -51,57 +47,28 @@ Blockchain networks and their productive-deflationary tokens embody a new type o
 
 **1. Deflationary mechanisms concentrate in productive tokens**
 
-Deflationary mechanisms refer to token supply structures that adjust token supply either by reducing total supply or by changing the rate of new issuance. Empirically, they are disproportionately concentrated in productive tokens, suggesting that ecosystems tying token issuance to real production are more likely to rely on supply adjustment to sustain long-run incentives.  
-
 ![](PAPER_ASSET/fig2_deflationary_mechanisms.png)
-
-<p style="font-size:0.85em; text-align:center; margin-top:4px;">
-  Figure 2. Yearly changes in deflationary mechanisms among productive and non-productive tokens, 2010–2024.
-</p>
+<p style="font-size:0.85em; text-align:center; margin-top:4px;">Figure 2. Yearly changes in deflationary mechanisms among productive and non-productive tokens, 2010–2024.</p>
 
 ---
 
 **2. Ecosystems backed by productive-deflationary tokens stand out in value, capital, and developer activity**
 
-Ecosystems backed by productive-deflationary tokens exhibit stronger price resilience and liquidity, higher capital retention, and greater developer concentration than other token regimes.
-
 ![](PAPER_ASSET/fig4_token_value_distribution.png)
-
-<p style="font-size:0.8em; text-align:center; margin-top:4px;">
-  Figure 4. Token Value Distribution, 2020–2024.
-</p>
-
+<p style="font-size:0.85em; text-align:center; margin-top:4px;">Figure 4. Token Value Distribution, 2020–2024.</p>
 
 ![](PAPER_ASSET/fig8_supply_mechanism_tvl_quartiles.png)
-
-<p style="font-size:0.8em; text-align:center; margin-top:4px; margin-bottom:0;">
-  Figure 8. Supply Mechanism Distribution Across TVL Quartiles, 2021–2024.
-</p>
-<p style="font-size:0.8em; text-align:left; margin-top:0;">
-  Note: TVL is used as a proxy for capital commitment and on-chain liquidity.
-</p>
-
+<p style="font-size:0.85em; text-align:center; margin-top:4px; margin-bottom:0;">Figure 8. Supply Mechanism Distribution Across TVL Quartiles, 2021–2024.</p>
 
 ![](PAPER_ASSET/fig10_interchain_deployment_network.png)
-
-<p style="font-size:0.8em; text-align:center; margin-top:4px; margin-bottom:0;">
-  Figure 10. Inter-chain Deployment Network of Decentralized Applications across Blockchain Platforms.
-</p>
-<p style="font-size:0.8em; text-align:left; margin-top:0;">
-  Note: The network includes only decentralized applications with positive realized protocol revenue and chains on which at least one such dApp is deployed. Most revenue-generating dApps are deployed on chains backed by productive-deflationary tokens. The activities of these dApps are closely tied to actual usage demand for both the chains and their native tokens.
-</p>
+<p style="font-size:0.85em; text-align:center; margin-top:4px; margin-bottom:0;">Figure 10. Inter-chain Deployment Network of Decentralized Applications across Blockchain Platforms.</p>
 
 ---
 
 **3. Stable inflation rates across market cycles**
 
-Annual inflation rates for productive-deflationary tokens remain relatively stable across market cycles. This pattern is consistent with a more balanced and sustainable incentive structure, allowing blockchain ecosystems to maintain a continuous, non-extreme flow of token supply and to remain operational across boom–bust cycles, rather than letting incentives expand and collapse with short-term price movements.  
-
 ![](PAPER_ASSET/fig11_inflation_distribution.png)
-
-<p style="font-size:0.8em; text-align:center; margin-top:4px;">
-  Figure 11. Annual Inflation Rate Distribution by Token Category, 2020–2024.
-</p>
+<p style="font-size:0.85em; text-align:center; margin-top:4px;">Figure 11. Annual Inflation Rate Distribution by Token Category, 2020–2024.</p>
 
 </details>
 
@@ -111,17 +78,68 @@ Annual inflation rates for productive-deflationary tokens remain relatively stab
 
 ### Innovation Structure and Revenue Distribution in Blockchain Open-Source Ecosystems  
 *Lead Author*, 2025  
-*Work in Progress*  
-**Supervisor:** [Mingxing Liu](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/7ff78cb582684f71be56b6d41f4048dc.htm) (Prof., CIEFR, Peking University)
+*Work in Progress* **Supervisor:** [Mingxing Liu](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/7ff78cb582684f71be56b6d41f4048dc.htm) (Prof., CIEFR, Peking University)
 
 <details>
 <summary><strong>Abstract (click to expand)</strong></summary>
 
-This study examines how blockchain-based open-source ecosystems generate sustainable returns in the absence of traditional property rights protection and centralized coordination. The long-standing vitality of open-source innovation challenges the classic “public-goods paradox,” while the introduction of token economies provides measurable and traceable channels through which innovation activities may be rewarded. Using Ethereum and Solana as representative cases, the study integrates GitHub developer activity with on-chain economic data to analyze the structural relationship between innovation and revenue distribution within blockchain ecosystems.
+This study examines how blockchain-based open-source ecosystems generate sustainable innovation in the absence of traditional property rights protection and centralized coordination. The long-standing vitality of open-source innovation challenges the classic “public-goods paradox,” while the introduction of token economies provides measurable and traceable channels through which innovation activities may be rewarded. Using Ethereum and Solana as representative cases, the study integrates GitHub developer activity with on-chain economic data to analyze the structural relationship between innovation and revenue distribution within blockchain ecosystems.
 
-Building on the innovation process of blockchain networks and a layered technological stack, my current analysis differentiates protocol-layer from application-layer innovation. Preliminary findings indicate a cyclical dynamic in which demand-driven and supply-driven forces alternate in shaping innovation intensity. During market downturns, ecosystems tend to rely on application-layer innovation to stimulate user demand; during market expansions, rising activity and transaction volume create supply-side pressure that pushes protocol developers to advance scalability- and performance-oriented foundational innovation. As the dominant source of innovation shifts across phases, the structure of value creation and revenue distribution appears to reorganize correspondingly.
+Building on the innovation process of blockchain networks and their layered technological stack, this study reveals a structural coupling between innovation patterns and revenue distribution. Specifically, the ecosystem exhibits a cyclical shift: protocol-layer innovation dominates during bull markets, while application-layer innovation leads during bear markets. Correspondingly, revenue distribution tilts toward the protocol layer during expansions and shifts to the application layer during contractions. This structural alignment ensures that value capture is precisely directed to the layer where innovation is most critical at any given stage. This mechanism serves as the fundamental driver for the ecosystem’s resilience and its capacity for autonomous, long-term evolution across market cycles.
 
-The core objective of this study is to identify how innovation at different layers of the blockchain stack receives economic rewards, thereby enabling the open-source ecosystem to sustain itself. By linking developer behavior with token-driven value flows, the study provides new empirical grounding and theoretical insight into innovation incentives, value allocation, and system evolution in tokenized open-source environments.
+</details>
+
+<details>
+<summary><strong>Selected Findings (click to expand)</strong></summary>
+
+#### 1. The Evolutionary Structure of Blockchain Innovation: Alternating Dominance of Protocol and Application Layers
+
+![](PAPER_ASSET/innovation_dynamics.png)
+<p style="font-size:0.85em; text-align:center; margin-top:4px; font-weight:bold;">Figure: Innovation Dynamics in the Blockchain Ecosystem</p>
+
+**Innovation Logic & Cycle Dynamics:**
+
+* **Demand-Side (Bear Market):** Application-layer innovation $\rightarrow$ Scenario expansion $\rightarrow$ Demand generation $\rightarrow$ Ecosystem sustenance.
+* **Supply-Side (Bull Market):** Protocol-layer innovation $\rightarrow$ Performance optimization $\rightarrow$ Capacity expansion $\rightarrow$ Growth scaling.
+
+---
+
+#### 2. Cyclical Shifts in Value Capture and Innovation Structural Coupling
+
+![](PAPER_ASSET/value_capture_coupling.png)
+<p style="font-size:0.85em; text-align:center; margin-top:4px; font-weight:bold;">Figure: Cyclical Value Capture and Economic Coupling</p>
+
+**Core Logic:**
+Value capture fluctuates cyclically between layers, creating an economic coupling with innovation patterns: **The Protocol Layer dominates in Bull markets, while the Application Layer thrives in Bear markets.**
+
+* **Bull Market: Value Accumulation at the Protocol Layer**. Through elevated Gas fees, the Protocol Layer extracts a significant portion of surplus from the Application Layer. While this compresses application profit margins, it accumulates substantial capital reserves to fund supply-side breakthroughs (e.g., scalability R&D and protocol upgrades).
+
+* **Bear Market: Value Retention at the Application Layer**. Overcapacity in the Protocol Layer leads to negligible block space costs. Consequently, the majority of revenue generated remains within the Application Layer. This "protocol subsidy" protects demand-side expansion, allowing developers to incubate new use cases and scenarios in a low-cost environment.
+
+---
+
+#### 3. Application Layer Mechanism: Counter-cyclical Innovation and Cost Dividends
+
+![](PAPER_ASSET/counter_cyclical_innovation.png)
+<p style="font-size:0.85em; text-align:center; margin-top:4px; font-weight:bold;">Figure: Counter-cyclical Patterns in Application Development</p>
+
+**Core Logic:**
+Application innovation thrives in bear markets, driven by a **"low-cost experimental window"** and the necessity for organic demand generation.
+
+* **Cost Dividend:** Lower protocol-layer fees (Gas) significantly reduce the marginal cost of experimentation, allowing developers to iterate on high-frequency, complex applications at minimal expense.
+* **Demand-Driven Expansion:** By pioneering new scenarios during market downturns, the application layer generates organic demand and provides essential liquidity to the ecosystem.
+
+---
+
+#### 4. Protocol Layer Mechanism: Distribution Logic Over Wealth Effect
+
+![](PAPER_ASSET/protocol_distribution_logic.png)
+<p style="font-size:0.85em; text-align:center; margin-top:4px; font-weight:bold;">Figure: Value Internalization and Protocol Innovation Incentives</p>
+
+**Core Logic:**
+Innovation at the Protocol Layer is driven by **resource allocation** rather than market speculation. Innovation intensity increases when value is captured by the protocol itself (via fees burn) rather than being distributed to validators (rent-seekers).
+
+* **Internalizing Value:** During market surges, increased burn rates reclaim value from validators and internalize it as protocol equity. This mechanism aligns incentives for protocol developers, providing the motivation to resolve performance bottlenecks through technical breakthroughs rather than relying on short-term "wealth effects."
 
 </details>
 
@@ -130,8 +148,7 @@ The core objective of this study is to identify how innovation at different laye
 ## Published / Forthcoming
 
 ### Unwilling or Unable to Marry? Marriage Intentions among the Second Generation of Internal Migrants
-*In collaboration with* [Ran Zhang](https://www.gse.pku.edu.cn/szdw/jxkyry/jyglyzcx/32236.htm) *(Assoc. Prof., PKU)*, Mingyue Yang, Sihong Ren, [Yingquan Song](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/84f2f9a1b4ca46a696d89e325796c54d.htm) *(Assoc. R., CIEFR)*  
-**Accepted:** *Youth Studies* (forthcoming), 2024  
+*In collaboration with* [Ran Zhang](https://www.gse.pku.edu.cn/szdw/jxkyry/jyglyzcx/32236.htm) *(Assoc. Prof., PKU)*, Mingyue Yang, Sihong Ren, [Yingquan Song](https://ciefr.pku.edu.cn/gywm/sztd/qzjs/84f2f9a1b4ca46a696d89e325796c54d.htm) *(Assoc. R., CIEFR)* **Accepted:** *Youth Studies* (forthcoming), 2024  
 **Funding:** National Natural Science Foundation of China (Grant No. 71110107028)
 
 <details>
@@ -146,8 +163,7 @@ China’s second-generation migrants have reached marriageable age, and their mo
 ## Other Research (Theses, Course Papers & Competitions)
 
 ### Returnee Scientists’ Academic Performance and Network Position: A Case Study of a National Key Laboratory in Information Science  
-*Lead Author*  
-*Final Project for the course Advanced Econometrics*, 2024  
+*Lead Author* *Final Project for the course Advanced Econometrics*, 2024  
 **Supervisor:** [Qiong Zhu](https://www.gse.pku.edu.cn/szdw/jxkyry/jyjjyglx/132907.htm) (Asst. Prof., Peking University)
 
 <details>
@@ -160,8 +176,7 @@ Drawing on CV information and Scopus publication records for researchers in Chin
 ---
 
 ### The Impact of Enterprise Digital Transformation on the Quality of Accounting Information  
-*Lead Author*  
-*Graduation Thesis (Bachelor of Management)*, Excellent final assessment, 2023  
+*Lead Author* *Graduation Thesis (Bachelor of Management)*, Excellent final assessment, 2023  
 **Supervisor:** [Yanru Wang](https://bs.ucass.edu.cn/info/1191/3126.htm) (Prof., UCASS)
 
 <details>
@@ -174,8 +189,7 @@ With the emergence of “ABCD” technologies and their integration into the rea
 ---
 
 ### High-Speed Railway Expansion, Human Capital Mobility, and Industrial Structure Upgrading  
-*Lead Author*  
-*Graduation Thesis (Bachelor of Economics)*, Excellent final assessment, 2023  
+*Lead Author* *Graduation Thesis (Bachelor of Economics)*, Excellent final assessment, 2023  
 **Supervisor:** [Yaowu Wu](https://fae.ucass.edu.cn/info/1128/1591.htm)（Researcher, IPLE, CASS）  
 
 <details>
@@ -188,8 +202,7 @@ Using census microdata from 2010 and 2015 together with HHSR opening records, th
 ---
 
 ### Leader of Integrated Revitalization of Alkaline Tomato Industry  
-*Second Author*  
-**Gold Prize**, *“Challenge Cup” Entrepreneurship Competition*, 2022  
+*Second Author* **Gold Prize**, *“Challenge Cup” Entrepreneurship Competition*, 2022  
 **Supervisors:** [Bin Zhang](https://sipe.ucass.edu.cn/info/1151/1621.htm) (IWEP, CASS); [Yanru Wang](https://bs.ucass.edu.cn/info/1191/3126.htm) (Prof.,UCASS)
 
 <details>
